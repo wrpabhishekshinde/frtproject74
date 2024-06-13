@@ -1,6 +1,6 @@
 
 <?php
-include('config.php');
+include('conn.php');
 include('functions.php');
 
 $msg="";
