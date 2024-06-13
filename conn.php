@@ -8,15 +8,5 @@ if (!$con) {
   }
   echo "Connected successfully";
 
-$query = "SELECT * FROM category";
-    if ($result = $mysqli->query($query)) {
-        echo "Query executed successfully\n";
-        // Process the result...
-        $result->close();
-    } else {
-        echo "Error executing query: (" . $mysqli->errno . ") " . $mysqli->error;
-    }
-    
-    // Print the mysqli object again
-    print_r($mysqli);
+
 ?>
